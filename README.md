@@ -9,7 +9,7 @@ products:
 - azure-iot-hub
 name: "Azure MXChip IoT DevKit State"
 description: "Monitor DevKit states and control the user LED with Azure IoT Hub device twins."
-urlFragment: "mxchip-iot-devkit-state"
+urlFragment: "sample"
 ---
 
 ## DevKit State
