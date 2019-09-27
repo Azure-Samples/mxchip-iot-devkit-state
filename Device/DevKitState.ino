@@ -298,7 +298,7 @@ void loop()
   digitalWrite(LED_USER, userLEDState);
 
   char state[500];
-  snprintf(state, 500, "{\"firmwareVersion\":\"%s\",\"wifiSSID\":\"%s\",\"wifiRSSI\":%d,\"wifiIP\":\"%s\",\"wifiMask\":\"%s\",\"macAddress\":\"%s\",\"sensorMotion\":%d,\"sensorPressure\":%d,\"sensorMagnetometer\":%d,\"sensorHumidityAndTemperature\":%d,\"sensorIrda\":%d}", firmwareVersion, wifiSSID, wifiRSSI, wifiIP, wifiMask, macAddress, sensorMotion, sensorPressure, sensorMagnetometer, sensorHumidityAndTemperature, sensorIrda);
+  snprintf(state, 500, "{\"firmwareVersion\":\"%s\",\"wifiSSID\":\"%s\",\"wifiRSSI\":%d,\"macAddress\":\"%s\",\"sensorMotion\":%d,\"sensorPressure\":%d,\"sensorMagnetometer\":%d,\"sensorHumidityAndTemperature\":%d,\"sensorIrda\":%d}", firmwareVersion, wifiSSID, wifiRSSI, macAddress, sensorMotion, sensorPressure, sensorMagnetometer, sensorHumidityAndTemperature, sensorIrda);
   DevKitMQTTClient_ReportState(state);
   delay(5000);
 }
