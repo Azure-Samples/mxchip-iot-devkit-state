@@ -18,7 +18,7 @@ In this tutorial, you can monitor the MXChip IoT DevKit WiFi information and sen
 
 ## About IoT DevKit
 
-The [MXChip IoT DevKit](https://aka.ms/iot-devkit) (a.k.a. IoT DevKit) is an all-in-one Arduino compatible board with rich peripherals and sensors. You can develop for it using [Azure IoT Device Workbench ](https://aka.ms/azure-iot-workbench). And it comes with a growing [projects catalog](https://aka.ms/devkit/project-catalog) to guide you prototype Internet of Things (IoT) solutions that take advantage of Microsoft Azure services.
+The [MXChip IoT DevKit](https://aka.ms/iot-devkit) (a.k.a. IoT DevKit) is an all-in-one Arduino compatible board with rich peripherals and sensors. You can develop for it using [Azure IoT Tools](https://aka.ms/azure-iot-tools). And it comes with a growing [projects catalog](https://aka.ms/devkit/project-catalog) to guide you prototype Internet of Things (IoT) solutions that take advantage of Microsoft Azure services.
 
 ## What you need
 
@@ -38,7 +38,7 @@ An active Azure subscription. If you do not have one, you can register via one o
 ### Start VS Code
 
 - Start Visual Studio Code.
-- Make sure [Azure IoT Device Workbench](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.vscode-iot-workbench) is installed.
+- Make sure [Azure IoT Tools](https://aka.ms/azure-iot-tools) is installed.
 - Connect IoT DevKit to your PC.
 
 ### Open Azure IoT Device Workbench Examples
