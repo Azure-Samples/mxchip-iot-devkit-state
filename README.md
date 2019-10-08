@@ -1,8 +1,7 @@
 ---
 page_type: sample
 languages:
-- javascript
-- nodejs
+- c
 - cpp
 products:
 - azure
