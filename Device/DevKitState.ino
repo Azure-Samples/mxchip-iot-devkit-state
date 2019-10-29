@@ -300,5 +300,12 @@ void loop()
   char state[500];
   snprintf(state, 500, "{\"firmwareVersion\":\"%s\",\"wifiSSID\":\"%s\",\"wifiRSSI\":%d,\"macAddress\":\"%s\",\"sensorMotion\":%d,\"sensorPressure\":%d,\"sensorMagnetometer\":%d,\"sensorHumidityAndTemperature\":%d,\"sensorIrda\":%d}", firmwareVersion, wifiSSID, wifiRSSI, macAddress, sensorMotion, sensorPressure, sensorMagnetometer, sensorHumidityAndTemperature, sensorIrda);
   DevKitMQTTClient_ReportState(state);
+  
+  free(ext_i2c);
+  free(acc_gyro);
+  free(ht_sensor);
+  free(magnetometer);
+  free(pressureSensor);
+  free(IrdaSensor);
   delay(5000);
 }
